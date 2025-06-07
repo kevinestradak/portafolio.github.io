@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+ background: url('fondo.png') no-repeat center center fixed;  background-size: cover;
+  color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00ffcc;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #00ffcc;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  color: #00ffcc;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+.section {
+  padding: 80px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.section h2 {
+  color: #00ffcc;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #00ffcc;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #00ddb3;
+}
+
+ul.info-list {
+  list-style: disc;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: left;
+  padding: 0 20px;
+}
+
+ul.info-list li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+@keyframes fadeInDown {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
