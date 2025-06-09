@@ -7,7 +7,8 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
- background: url('fondo.png') no-repeat center center fixed;  background-size: cover;
+  background: url('fondo.png') no-repeat center center fixed;
+  background-size: cover;
   color: #fff;
   line-height: 1.6;
 }
@@ -130,18 +131,3 @@ ul.info-list li {
   0% { opacity: 0; transform: translateY(20px); }
   100% { opacity: 1; transform: translateY(0); }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
